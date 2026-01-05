@@ -34,6 +34,15 @@ promiseFunction().then(result => {
 
 console.log("\n2. await 的使用:");
 
+/**
+ * 创建异步任务
+ * @param {string} name - 任务名称
+ * @param {number} delay - 延迟时间（毫秒）
+ * @param {boolean} [shouldFail=false] - 是否让任务失败
+ * @returns {Promise<string>} 任务结果
+ * @example
+ * const result = await createAsyncTask("任务1", 300);
+ */
 function createAsyncTask(name, delay, shouldFail = false) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -47,8 +56,20 @@ function createAsyncTask(name, delay, shouldFail = false) {
     });
 }
 
-// 使用 async/await 重写链式调用
-async function sequentialTasks() {
+/**
+ * 顺序执行多个异步任务
+ * 依次等待每个任务完成后再执行下一个，适合有依赖关系的任务
+ * @returns {Promise<string>} 返回所有任务完成的提示信息
+ * @throws {Error} 如果任何任务失败，抛出错误
+ * @example
+ * // 使用方式：
+ * sequentialTasks()
+ *     .then(result => console.log(result))
+ *     .catch(error => console.log('执行失败:', error.message));
+ */
+async function sequentialTasks()
+
+{
     try {
         console.log("开始顺序执行任务...");
         

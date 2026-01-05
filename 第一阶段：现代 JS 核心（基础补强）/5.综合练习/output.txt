@@ -1,0 +1,466 @@
+=== 绗竴闃舵缁煎悎缁冧範 ===
+
+=== 椤圭洰1锛氬鐢熸垚缁╃鐞嗙郴缁?===
+1. 瀛︾敓骞冲潎鍒? [
+  {
+    id: 1,
+    name: '寮犱笁',
+    age: 18,
+    grades: { math: 85, english: 92, science: 78 },
+    average: 85
+  },
+  {
+    id: 2,
+    name: '鏉庡洓',
+    age: 19,
+    grades: { math: 95, english: 88, science: 91 },
+    average: 91.33
+  },
+  {
+    id: 3,
+    name: '鐜嬩簲',
+    age: 18,
+    grades: { math: 72, english: 85, science: 83 },
+    average: 80
+  },
+  {
+    id: 4,
+    name: '璧靛叚',
+    age: 20,
+    grades: { math: 88, english: 90, science: 87 },
+    average: 88.33
+  },
+  {
+    id: 5,
+    name: '閽变竷',
+    age: 19,
+    grades: { math: 91, english: 79, science: 94 },
+    average: 88
+  }
+]
+2. 鏁板浼樼瀛︾敓: [
+  {
+    id: 2,
+    name: '鏉庡洓',
+    age: 19,
+    grades: { math: 95, english: 88, science: 91 },
+    average: 91.33
+  },
+  {
+    id: 5,
+    name: '閽变竷',
+    age: 19,
+    grades: { math: 91, english: 79, science: 94 },
+    average: 88
+  }
+]
+3. 鎸夊钩鍧囧垎鎺掑簭: [
+  {
+    id: 2,
+    name: '鏉庡洓',
+    age: 19,
+    grades: { math: 95, english: 88, science: 91 },
+    average: 91.33
+  },
+  {
+    id: 4,
+    name: '璧靛叚',
+    age: 20,
+    grades: { math: 88, english: 90, science: 87 },
+    average: 88.33
+  },
+  {
+    id: 5,
+    name: '閽变竷',
+    age: 19,
+    grades: { math: 91, english: 79, science: 94 },
+    average: 88
+  },
+  {
+    id: 1,
+    name: '寮犱笁',
+    age: 18,
+    grades: { math: 85, english: 92, science: 78 },
+    average: 85
+  },
+  {
+    id: 3,
+    name: '鐜嬩簲',
+    age: 18,
+    grades: { math: 72, english: 85, science: 83 },
+    average: 80
+  }
+]
+4. 鍚勭骞冲潎鍒? [
+  { subject: 'math', average: 86.2 },
+  { subject: 'english', average: 86.8 },
+  { subject: 'science', average: 86.6 }
+]
+5. 鏈€钖勫急绉戠洰: { subject: 'math', average: 86.2 }
+
+=== 椤圭洰2锛氱數鍟嗗簱瀛樼鐞嗙郴缁?===
+1. 搴撳瓨鎬讳环鍊? 楼1,434,820
+2. 鐑攢浜у搧: [
+  {
+    id: 1,
+    name: 'iPhone 15',
+    category: '鎵嬫満',
+    price: 7999,
+    stock: 50,
+    sales: 120
+  },
+  {
+    id: 2,
+    name: 'Samsung S24',
+    category: '鎵嬫満',
+    price: 6999,
+    stock: 30,
+    sales: 80
+  },
+  {
+    id: 4,
+    name: 'Dell XPS',
+    category: '鐢佃剳',
+    price: 8999,
+    stock: 25,
+    sales: 60
+  },
+  {
+    id: 5,
+    name: 'iPad Air',
+    category: '骞虫澘',
+    price: 3999,
+    stock: 40,
+    sales: 100
+  }
+]
+3. 鎸夌被鍒粺璁? {
+  '鎵嬫満': { count: 2, totalStock: 80, totalValue: 609920, avgPrice: 7624 },
+  '鐢佃剳': { count: 2, totalStock: 45, totalValue: 544955, avgPrice: 12110 },
+  '骞虫澘': { count: 2, totalStock: 55, totalValue: 279945, avgPrice: 5090 }
+}
+4. 闇€瑕佽ˉ璐х殑浜у搧: [
+  {
+    id: 6,
+    name: 'Surface Pro',
+    category: '骞虫澘',
+    price: 7999,
+    stock: 15,
+    sales: 35
+  }
+]
+5. 閿€鍞崰姣? [
+  { category: '鎵嬫満', sales: 200, percentage: 45 },
+  { category: '鐢佃剳', sales: 105, percentage: 24 },
+  { category: '骞虫澘', sales: 135, percentage: 31 }
+]
+
+=== 椤圭洰3锛氬紓姝ユ暟鎹鐞嗙郴缁?===
+1. 鎵归噺鑾峰彇鐢ㄦ埛鏁版嵁:
+
+=== 椤圭洰4锛氭暟鎹獙璇佸拰杞崲绠￠亾 ===
+澶勭悊鍚庣殑鏁版嵁: [
+  {
+    name: '寮犱笁',
+    age: 25,
+    email: 'zhangsan@example.com',
+    phone: '138-0013-8000',
+    id: 7861,
+    createdAt: '2026-01-05T20:18:50.808Z',
+    ageGroup: '闈掑勾'
+  }
+]
+
+=== 椤圭洰5锛氱數鍟嗘暟鎹垎鏋?===
+1. 鐢ㄦ埛LTV鍒嗘瀽: [
+  {
+    id: 1,
+    name: '寮犱笁',
+    registrationDate: '2024-01-15',
+    isActive: true,
+    totalOrders: 2,
+    totalSpent: 20000,
+    avgOrderValue: 10000
+  },
+  {
+    id: 2,
+    name: '鏉庡洓',
+    registrationDate: '2024-02-20',
+    isActive: true,
+    totalOrders: 1,
+    totalSpent: 8000,
+    avgOrderValue: 8000
+  },
+  {
+    id: 3,
+    name: '鐜嬩簲',
+    registrationDate: '2024-03-10',
+    isActive: false,
+    totalOrders: 1,
+    totalSpent: 8000,
+    avgOrderValue: 8000
+  }
+]
+2. 浜у搧閿€鍞垎鏋? [
+  {
+    id: 101,
+    name: 'iPhone',
+    category: '鎵嬫満',
+    price: 8000,
+    totalOrders: 2,
+    totalUnits: 2,
+    totalRevenue: 16000,
+    avgPrice: 8000
+  },
+  {
+    id: 102,
+    name: 'MacBook',
+    category: '鐢佃剳',
+    price: 12000,
+    totalOrders: 1,
+    totalUnits: 1,
+    totalRevenue: 12000,
+    avgPrice: 12000
+  },
+  {
+    id: 103,
+    name: 'iPad',
+    category: '骞虫澘',
+    price: 4000,
+    totalOrders: 1,
+    totalUnits: 2,
+    totalRevenue: 8000,
+    avgPrice: 4000
+  }
+]
+3. 鏈堝害閿€鍞粺璁? [
+  {
+    month: '2024-04',
+    totalOrders: 4,
+    totalRevenue: 36000,
+    totalUnits: 5,
+    uniqueCustomers: 3
+  }
+]
+
+=== 瀛︿範鎬荤粨 ===
+
+绗竴闃舵瀛︿範瑕佺偣鎬荤粨锛?
+1. 鍙橀噺涓庝綔鐢ㄥ煙
+   鉁?鎺屾彙 let/const 涓?var 鐨勫尯鍒?   鉁?鐞嗚В鍧楃骇浣滅敤鍩熺殑姒傚康
+   鉁?瀛︿細浣跨敤闂寘鍜?IIFE
+
+2. 绠ご鍑芥暟
+   鉁?鎺屾彙绠ご鍑芥暟璇硶
+   鉁?鐞嗚В this 缁戝畾鐨勫樊寮?   鉁?鐔熸倝鍦ㄦ暟缁勬柟娉曚腑鐨勫簲鐢?
+3. 寮傛缂栫▼
+   鉁?鐞嗚В Promise 鐨?then/catch 鏈哄埗
+   鉁?鎺屾彙 async/await 璇硶绯?   鉁?瀛︿細澶勭悊寮傛閿欒
+
+4. 鏁扮粍鏂规硶
+   鉁?鐔熺粌浣跨敤 map, filter, find, reduce
+   鉁?鐞嗚В鍑芥暟寮忕紪绋嬫€濇兂
+   鉁?鎺屾彙閾惧紡璋冪敤鎶€宸?
+瀛︿範寤鸿锛?1. 姣忓ぉ缁冧範 2-3 涓ず渚?2. 灏濊瘯淇敼浠ｇ爜鐞嗚В涓嶅悓鏁堟灉
+3. 灏?Python 鎬濈淮杞崲涓?JavaScript 鎬濈淮
+4. 澶氫娇鐢?console.log 璋冭瘯浠ｇ爜
+5. 鐞嗚В姣忎釜鏂规硶鐨勮繑鍥炲€煎拰鍓綔鐢?
+涓嬩竴姝ワ細
+瀹屾垚绗竴闃舵鍚庯紝杩涘叆绗簩闃舵 TypeScript 瀛︿範锛?
+鑾峰彇鍒扮殑鐢ㄦ埛: [
+  {
+    id: 1,
+    name: '鐢ㄦ埛1',
+    email: 'user1@example.com',
+    lastLogin: 2026-01-04T16:52:54.858Z
+  },
+  {
+    id: 2,
+    name: '鐢ㄦ埛2',
+    email: 'user2@example.com',
+    lastLogin: 2025-12-14T11:23:23.847Z
+  },
+  {
+    id: 3,
+    name: '鐢ㄦ埛3',
+    email: 'user3@example.com',
+    lastLogin: 2025-12-16T14:04:51.579Z
+  }
+]
+
+2. 鑾峰彇鐢ㄦ埛 1 鐨勮鍗曞苟澶勭悊:
+鍘熷璁㈠崟: [
+  { id: '1-1', amount: 159, date: 2025-12-22T00:26:30.069Z },
+  { id: '1-2', amount: 428, date: 2025-12-15T03:40:35.739Z },
+  { id: '1-3', amount: 845, date: 2025-12-02T17:24:05.479Z },
+  { id: '1-4', amount: 1033, date: 2025-12-28T07:45:40.675Z },
+  { id: '1-5', amount: 219, date: 2026-01-04T00:12:36.425Z }
+]
+澶勭悊鍚庣殑璁㈠崟: [
+  {
+    id: '1-1',
+    amount: 159,
+    date: 2025-12-22T00:26:30.069Z,
+    status: '鏅€氳鍗?,
+    discount: 0
+  },
+  {
+    id: '1-2',
+    amount: 428,
+    date: 2025-12-15T03:40:35.739Z,
+    status: '鏅€氳鍗?,
+    discount: 0
+  },
+  {
+    id: '1-3',
+    amount: 845,
+    date: 2025-12-02T17:24:05.479Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0.1
+  },
+  {
+    id: '1-4',
+    amount: 1033,
+    date: 2025-12-28T07:45:40.675Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0.1
+  },
+  {
+    id: '1-5',
+    amount: 219,
+    date: 2026-01-04T00:12:36.425Z,
+    status: '鏅€氳鍗?,
+    discount: 0
+  }
+]
+
+3. 缁煎悎鐢ㄦ埛鍒嗘瀽:
+1. 鎵归噺鑾峰彇鐢ㄦ埛鏁版嵁:
+鑾峰彇鍒扮殑鐢ㄦ埛: [
+  {
+    id: 1,
+    name: '鐢ㄦ埛1',
+    email: 'user1@example.com',
+    lastLogin: 2025-12-15T08:14:25.615Z
+  },
+  {
+    id: 2,
+    name: '鐢ㄦ埛2',
+    email: 'user2@example.com',
+    lastLogin: 2025-12-07T18:01:31.929Z
+  },
+  {
+    id: 3,
+    name: '鐢ㄦ埛3',
+    email: 'user3@example.com',
+    lastLogin: 2025-12-16T20:10:22.867Z
+  }
+]
+
+2. 鑾峰彇鐢ㄦ埛 1 鐨勮鍗曞苟澶勭悊:
+
+2. 鑾峰彇鐢ㄦ埛 2 鐨勮鍗曞苟澶勭悊:
+
+2. 鑾峰彇鐢ㄦ埛 3 鐨勮鍗曞苟澶勭悊:
+鍘熷璁㈠崟: [ { id: '1-1', amount: 590, date: 2025-12-10T13:06:28.096Z } ]
+鍘熷璁㈠崟: [
+  { id: '2-1', amount: 914, date: 2025-11-23T05:05:40.027Z },
+  { id: '2-2', amount: 946, date: 2025-11-26T11:37:12.772Z },
+  { id: '2-3', amount: 605, date: 2025-12-29T00:07:03.944Z },
+  { id: '2-4', amount: 177, date: 2025-12-18T09:21:52.125Z },
+  { id: '2-5', amount: 783, date: 2025-11-28T15:14:16.276Z }
+]
+鍘熷璁㈠崟: [
+  { id: '3-1', amount: 513, date: 2025-12-10T08:28:12.630Z },
+  { id: '3-2', amount: 143, date: 2025-11-20T06:14:38.146Z }
+]
+澶勭悊鍚庣殑璁㈠崟: [
+  {
+    id: '1-1',
+    amount: 590,
+    date: 2025-12-10T13:06:28.096Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0
+  }
+]
+澶勭悊鍚庣殑璁㈠崟: [
+  {
+    id: '2-1',
+    amount: 914,
+    date: 2025-11-23T05:05:40.027Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0.1
+  },
+  {
+    id: '2-2',
+    amount: 946,
+    date: 2025-11-26T11:37:12.772Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0.1
+  },
+  {
+    id: '2-3',
+    amount: 605,
+    date: 2025-12-29T00:07:03.944Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0
+  },
+  {
+    id: '2-4',
+    amount: 177,
+    date: 2025-12-18T09:21:52.125Z,
+    status: '鏅€氳鍗?,
+    discount: 0
+  },
+  {
+    id: '2-5',
+    amount: 783,
+    date: 2025-11-28T15:14:16.276Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0
+  }
+]
+澶勭悊鍚庣殑璁㈠崟: [
+  {
+    id: '3-1',
+    amount: 513,
+    date: 2025-12-10T08:28:12.630Z,
+    status: '楂樹环鍊艰鍗?,
+    discount: 0
+  },
+  {
+    id: '3-2',
+    amount: 143,
+    date: 2025-11-20T06:14:38.146Z,
+    status: '鏅€氳鍗?,
+    discount: 0
+  }
+]
+鐢ㄦ埛鍒嗘瀽缁撴灉: [
+  {
+    user: '鐢ㄦ埛1',
+    totalOrders: 1,
+    totalSpent: 590,
+    avgOrder: 590,
+    highValueOrders: 1,
+    lastLogin: '2025/12/15'
+  },
+  {
+    user: '鐢ㄦ埛2',
+    totalOrders: 5,
+    totalSpent: 3425,
+    avgOrder: 685,
+    highValueOrders: 4,
+    lastLogin: '2025/12/8'
+  },
+  {
+    user: '鐢ㄦ埛3',
+    totalOrders: 2,
+    totalSpent: 656,
+    avgOrder: 328,
+    highValueOrders: 1,
+    lastLogin: '2025/12/17'
+  }
+]
+
+=== 绗竴闃舵瀛︿範瀹屾垚锛?===

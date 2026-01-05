@@ -30,7 +30,7 @@ const users = [
 
 const userNames = users.map(user => user.name);
 console.log("map - 提取用户名:", userNames); // ["张三", "李四", "王五"]
-
+ 
 const userSummaries = users.map(user => ({
     id: user.id,
     summary: `${user.name} (${user.age}岁)`
